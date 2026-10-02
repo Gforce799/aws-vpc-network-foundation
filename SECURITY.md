@@ -1,6 +1,6 @@
 # Security Policy
 
-This repository is a portfolio template and is not connected to production
+This repository is a Terraform infrastructure template and is not connected to production
 accounts. Review and adapt every variable, network range, principal ARN, and
 retention period before deployment.
 
@@ -16,4 +16,4 @@ public issues.
 - Public access is blocked on S3 buckets unless the workload explicitly needs it.
 - Logs, metrics, and audit resources are included where the service supports it.
 - Terraform variables include validation for blast-radius-sensitive inputs.
-- Example values are intentionally non-production.
+- Default values are intentionally non-production.
